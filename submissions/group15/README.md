@@ -1,6 +1,6 @@
 # Group 15 — Human or AI?
 
-**Team members:** Jingyu Zhang (jz2523), [name] ([netid]), [name] ([netid])
+**Team members:** Jingyu Zhang (jz2523), [Xinyu Zhang] ([x2225]), [name] ([netid])
 **Kaggle team name:** `group15`
 
 ## Setup

@@ -48,6 +48,7 @@ python experiments/learning_curve.py
 ```bash
 python experiments/ensemble.py --submit AC
 ```
+This writes final submission: submission_ensemble_ac.csv
 
 For now, Model A's submission can be made with:
 

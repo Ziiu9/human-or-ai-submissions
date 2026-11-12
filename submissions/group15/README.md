@@ -1,6 +1,6 @@
 # Group 15 — Human or AI?
 
-**Team members:** Jingyu Zhang (jz2523), [Xinyu Zhang] ([xz2225]), [name] ([netid])
+**Team members:** Jingyu Zhang (jz2523), [Xinyu Zhang] ([xz2225]), Yao Xiao (yx222)
 **Kaggle team name:** `group15`
 
 ## Setup
@@ -77,6 +77,6 @@ python experiments/model_b_style_blend.py
 
 - Jingyu: used Claude to explain course concepts and to draft `eda.py`, `common.py`, `experiments/model_a.py` and `experiments/learning_curve.py`. Ran every script, checked the outputs, and made the design choices (keeping case and punctuation, the fixed validation protocol, choosing C=10).
 - [Xinyu]: used ChatGPT to clarify concepts including TF-IDF, character n-grams, linear SVMs, AUROC, validation, and semi-supervised learning; to discuss the experimental design for the character-level SVM model; and to review code structure and model-evaluation logic. She ran and inspected the experiments and verified the submitted implementation and outputs.
-- [teammate]:
+- Yao Xiao: used ChatGPT to help debug Model C’s feature-extraction and random-forest code, revise the error-analysis script, interpret experimental results, and improve the report’s wording and LaTeX formatting.[Xinyu's AI use to be added. 
 
 No AI tool or external API was used to label or predict the competition passages.

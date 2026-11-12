@@ -40,8 +40,7 @@ python experiments/model_c_style.py
 python experiments/learning_curve.py
 
 # Q3 unlabeled data -> experiments/unlabeled.py
-# Q4 error analysis: selected A+C rank ensemble (Yao Xiao)
-# Requires saved Model A and Model C validation predictions in preds/
+# Q4 error analysis -> experiments/error_analysis.py
 ```
 
 ## Predict (writes Kaggle submission)

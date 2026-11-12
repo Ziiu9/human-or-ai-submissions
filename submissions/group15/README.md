@@ -1,6 +1,6 @@
 # Group 15 — Human or AI?
 
-**Team members:** Jingyu Zhang (jz2523), [Xinyu Zhang] ([x2225]), [name] ([netid])
+**Team members:** Jingyu Zhang (jz2523), [Xinyu Zhang] ([xz2225]), [name] ([netid])
 **Kaggle team name:** `group15`
 
 ## Setup
@@ -27,13 +27,18 @@ python eda.py --data data
 python experiments/model_a.py            # chosen settings
 python experiments/model_a.py --tune     # 32-setting grid -> experiments/model_a_tuning.txt
 
-# Model B: [teammate]
+# Model B: character TF-IDF + linear SVM
+python -m experiments.model_b_char_svm
+
+# Optional Model B style-feature blend
+python experiments/model_b_style_blend.py
+
 # Model C: [teammate]
 
 # Q2 learning curve -> experiments/learning_curve.txt, figures/learning_curve.png
 python experiments/learning_curve.py
 
-# Q3 unlabeled data: [teammate]
+# Q3 unlabeled data -> experiments/unlabeled.py
 # Q4 error analysis: [teammate]
 ```
 
@@ -58,7 +63,7 @@ python experiments/model_a.py --submit   # retrains on all 10,000 rows, writes s
 ## AI assistance
 
 - Jingyu: used Claude to explain course concepts and to draft `eda.py`, `common.py`, `experiments/model_a.py` and `experiments/learning_curve.py`. Ran every script, checked the outputs, and made the design choices (keeping case and punctuation, the fixed validation protocol, choosing C=10).
-- [teammate]:
+- [Xinyu]: used ChatGPT to clarify concepts including TF-IDF, character n-grams, linear SVMs, AUROC, validation, and semi-supervised learning; to discuss the experimental design for the character-level SVM model; and to review code structure and model-evaluation logic. She ran and inspected the experiments and verified the submitted implementation and outputs.
 - [teammate]:
 
 No AI tool or external API was used to label or predict the competition passages.

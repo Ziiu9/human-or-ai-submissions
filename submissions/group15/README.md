@@ -33,13 +33,15 @@ python -m experiments.model_b_char_svm
 # Optional Model B style-feature blend
 python experiments/model_b_style_blend.py
 
-# Model C: [teammate]
+# Model C: 34 text-style features + random forest (Yao Xiao)
+python experiments/model_c_style.py
 
 # Q2 learning curve -> experiments/learning_curve.txt, figures/learning_curve.png
 python experiments/learning_curve.py
 
 # Q3 unlabeled data -> experiments/unlabeled.py
-# Q4 error analysis: [teammate]
+# Q4 error analysis: selected A+C rank ensemble (Yao Xiao)
+# Requires saved Model A and Model C validation predictions in preds/
 ```
 
 ## Predict (writes Kaggle submission)

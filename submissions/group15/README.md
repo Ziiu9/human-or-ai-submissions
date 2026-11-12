@@ -54,6 +54,19 @@ For now, Model A's submission can be made with:
 python experiments/model_a.py --submit   # retrains on all 10,000 rows, writes submission_model_a.csv
 ```
 
+For Model B, validation and test SVM scores can be generated with:
+```bash
+python -m experiments.model_b_char_svm
+```
+This saves:
+- preds/model_b_val.npy
+- preds/model_b_test.npy
+
+If the character/style blend improves validation AUROC, a Kaggle submission can be generated with:
+```bahsh
+python experiments/model_b_style_blend.py
+```
+
 ## Seeds and notes
 
 - Global seed: `20261023` (`common.SEED`), used for the validation split, learning-curve subsampling and every model's `random_state`

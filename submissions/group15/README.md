@@ -46,7 +46,7 @@ python experiments/learning_curve.py
 ## Predict (writes Kaggle submission)
 
 ```bash
-# [final command once train.py / predict.py are written]
+python experiments/ensemble.py --submit AC
 ```
 
 For now, Model A's submission can be made with:

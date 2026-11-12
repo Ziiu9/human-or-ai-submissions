@@ -68,6 +68,12 @@ If the character/style blend improves validation AUROC, a Kaggle submission can 
 python experiments/model_b_style_blend.py
 ```
 
+Model C's submission can be made with:
+
+```bash
+python experiments/model_c_style.py 
+```
+
 ## Seeds and notes
 
 - Global seed: `20261023` (`common.SEED`), used for the validation split, learning-curve subsampling and every model's `random_state`
